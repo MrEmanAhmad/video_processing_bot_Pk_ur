@@ -1,6 +1,6 @@
-# Environment variables
-.env
-*.env
+# Git
+.git
+.gitignore
 
 # Python
 __pycache__/
@@ -27,6 +27,7 @@ var/
 # Virtual Environment
 venv/
 ENV/
+.env
 
 # IDE
 .idea/
@@ -40,15 +41,8 @@ analysis_*/
 *.log
 temp_*/
 bot.log*
-google_credentials.json
-*.mp4
-*.wav
-*.mp3
-*.avi
-*.mov
-cookies.txt
-api_test.py
 
-# Temporary files
-.DS_Store
-Thumbs.db 
+# Docker
+.docker
+Dockerfile
+docker-compose.yml 
